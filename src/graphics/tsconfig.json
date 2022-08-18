@@ -13,12 +13,11 @@
     //"composite": true,
     "declaration": false,
     "typeRoots": ["../../node_modules/@types", "./types"],
-    "paths": {
-      "*": ["../shared-types"]
-    },
 
     /* Advanced Options */
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "files": ["../shared-types/types/index.d.ts"],
+  "include": ["**/*.ts"]
 }
