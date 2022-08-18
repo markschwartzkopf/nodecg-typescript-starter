@@ -12,7 +12,10 @@
     "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
     //"composite": true,
     "declaration": false,
-    "typeRoots": ["../../node_modules/@types", "../../src/shared-types", "./types"],
+    "typeRoots": ["../../node_modules/@types", "./types"],
+    "paths": {
+      "*": ["../shared-types"]
+    },
  
     /* Advanced Options */
     "skipLibCheck": true /* Skip type checking of declaration files. */,

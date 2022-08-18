@@ -15,7 +15,6 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "object-curly-spacing": 0,
     "@typescript-eslint/no-var-requires": 0,
@@ -31,6 +30,12 @@
     "prefer-promise-reject-errors": 0,
     "prefer-destructuring": 0,
     "no-else-return": 0,
-    "no-implicit-coercion": 0
+    "no-implicit-coercion": 0,
+    "operator-linebreak": 0,
+    "default-case": 0,
+    "lines-between-class-members": 0,
+    "one-var": 0,
+    "no-lone-blocks": 0,
+    "quotes": 0
   }
 }
