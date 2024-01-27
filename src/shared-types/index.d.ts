@@ -1,1 +1,0 @@
-type placeholderSharedType = symbol
